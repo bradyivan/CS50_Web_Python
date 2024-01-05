@@ -1,3 +1,78 @@
+#g1{
+    color: blue;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#o1{
+    color: red;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#o2{
+    color: yellow;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#g2{
+    color: blue;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#l{
+    color: green;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#e{
+    color: red;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#grid{                
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    grid-template-columns: 200px auto ;    
+}
+
+#grid2{    
+              
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    grid-template-columns: auto ;    
+}
+
+.btncenter2{
+    display: grid;    
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    grid-template-columns: auto 120px 120px auto;    
+    width: 100%;      
+}
+
+.btncenter{
+    text-align: center;   
+}
+
+
+.btngoogle{
+    background-color: #4285F4;
+    color: white;
+    padding: 5px;
+    margin: 5px; 
+    border-color: #4285F4;
+    width: 120px;
+}
+
 #btnadv{
     text-align: right;    
 }
@@ -5,7 +80,6 @@
 .roundbox{
     border-radius: 25px;
     padding: 5px;    
-    width: 80%;
 }
 
 nav {
@@ -19,6 +93,7 @@ a:link{
 }
 
 a:hover{
-    color: #ffffff;
+    color: white;
     background-color: #4285F4;    
 }
+
