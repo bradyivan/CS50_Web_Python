@@ -1,0 +1,23 @@
+#btnadv{
+    text-align: right;    
+}
+
+.roundbox{
+    border-radius: 25px;
+    padding: 5px;    
+}
+
+nav {
+    text-align: right;
+}
+
+a:link{
+    text-decoration: none;
+    padding: 5px;
+    color: #4285F4;
+}
+
+a:hover{
+    color: #ffffff;
+    background-color: #4285F4;    
+}
