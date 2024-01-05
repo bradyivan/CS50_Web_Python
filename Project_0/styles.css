@@ -5,6 +5,7 @@
 .roundbox{
     border-radius: 25px;
     padding: 5px;    
+    width: 80%;
 }
 
 nav {
